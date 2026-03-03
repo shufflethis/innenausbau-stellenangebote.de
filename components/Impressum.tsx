@@ -10,8 +10,8 @@ export const Impressum: React.FC = () => {
           <h2 className="text-xl font-semibold mb-2">Angaben gemäß § 5 TMG</h2>
           <p>
             Innenausbau Karriere GmbH<br />
-            Musterstraße 123<br />
-            10115 Berlin<br />
+            Schliemannstraße 23<br />
+            10437 Berlin<br />
             Deutschland
           </p>
         </section>
@@ -19,14 +19,14 @@ export const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-semibold mb-2">Kontakt</h2>
           <p>
-            Telefon: +49 (0) 30 12345678<br />
+            Telefon: +49 30 403 6654 32<br />
             E-Mail: kontakt@innenausbau-karriere-beispiel.de
           </p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold mb-2">Vertreten durch</h2>
-          <p>Geschäftsführer: Max Mustermann</p>
+          <p>Geschäftsführer: Thomas Sander</p>
         </section>
 
         <section>
@@ -34,15 +34,14 @@ export const Impressum: React.FC = () => {
           <p>
             Eintragung im Handelsregister.<br />
             Registergericht: Amtsgericht Berlin-Charlottenburg<br />
-            Registernummer: HRB 123456
-          </p>
+            Registernummer: HRB 162557 B</p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold mb-2">Umsatzsteuer-ID</h2>
           <p>
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-            DE 123 456 789
+            DE298885799
           </p>
         </section>
 

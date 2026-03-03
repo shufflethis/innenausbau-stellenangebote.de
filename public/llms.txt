@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# innenausbau-stellenangebote.de - Innenausbau Stellenangebote
+
+> innenausbau-stellenangebote.de ist ein spezialisiertes Jobportal fuer Innenausbau-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Innenausbau
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://innenausbau-stellenangebote.de
+- Arbeitgeber-Kontakt: https://innenausbau-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://innenausbau-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Innenausbau-Stellenangebote
+- Karriere-Ratgeber fuer Innenausbau
+- Gehaltsvergleiche und Brancheninformationen

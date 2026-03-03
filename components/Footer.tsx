@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ViewState } from '../types';
 
 interface FooterProps {

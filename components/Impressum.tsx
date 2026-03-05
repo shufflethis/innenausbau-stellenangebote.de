@@ -19,7 +19,7 @@ export const Impressum: React.FC = () => {
         <section>
           <h2 className="text-xl font-semibold mb-2">Kontakt</h2>
           <p>
-            Telefon: +49 30 403 6654 32<br />
+            Telefon: +49 30 959 988 700<br />
             E-Mail: kontakt@innenausbau-karriere-beispiel.de
           </p>
         </section>

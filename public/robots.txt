@@ -1,4 +1,4 @@
-# HR-UPDATER: v1.0
+# innenausbau-stellenangebote.de
 User-agent: *
 Allow: /
 
@@ -19,3 +19,12 @@ Allow: /
 
 User-agent: ClaudeBot
 Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# LLM context file
+# https://innenausbau-stellenangebote.de/llms.txt

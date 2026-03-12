@@ -1,19 +1,24 @@
-# HR-UPDATER: v1.0
 # innenausbau-stellenangebote.de - Innenausbau Stellenangebote
 
-> innenausbau-stellenangebote.de ist ein spezialisiertes Jobportal fuer Innenausbau-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> innenausbau-stellenangebote.de ist ein spezialisiertes Jobportal fuer Innenausbau-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH, Berlin.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Innenausbau
+- Spezialisiertes Jobportal fuer Innenausbau (Trockenbau, Malerarbeiten, Bodenlegen, Bauleitung)
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Betreiber: Social Media Venture GmbH, Schliemannstrasse 23, 10437 Berlin
+- Geschaeftsfuehrer: Thomas Sander
 
 ## Kontakt
 - Website: https://innenausbau-stellenangebote.de
-- Arbeitgeber-Kontakt: https://innenausbau-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://innenausbau-stellenangebote.de/kontakt-bewerber
+- E-Mail: info@socialmediaventure.com
+- LinkedIn: https://de.linkedin.com/in/thomas-sander-520676303
 
 ## Inhalte
-- Aktuelle Innenausbau-Stellenangebote
-- Karriere-Ratgeber fuer Innenausbau
+- Aktuelle Innenausbau-Stellenangebote in ganz Deutschland
+- Karriere-Ratgeber fuer Innenausbau-Berufe (Trockenbaumonteur, Maler, Bodenleger, Stuckateur, Tischler)
 - Gehaltsvergleiche und Brancheninformationen
+- Tipps fuer Arbeitgeber zur Fachkraeftegewinnung im Handwerk
+
+## Staedte
+Berlin, Hamburg, Muenchen, Koeln, Frankfurt am Main, Stuttgart, Duesseldorf, Leipzig, Dortmund, Essen, Bremen, Dresden, Hannover, Nuernberg, Duisburg, Bochum, Wuppertal, Bielefeld, Bonn, Mannheim, Augsburg, Karlsruhe, Wiesbaden, Muenster, Freiburg, Rostock, Erfurt, Mainz, Kiel, Potsdam

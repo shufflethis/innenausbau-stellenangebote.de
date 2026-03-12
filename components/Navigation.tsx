@@ -75,14 +75,20 @@ export const Navigation: React.FC<NavigationProps> = ({ currentView, setView }) 
                 key={link.value}
                 onClick={() => { setView(link.value as ViewState); setIsOpen(false); }}
                 className={`block w-full text-left px-3 py-2 rounded-md text-base font-medium ${
-                  currentView === link.value 
-                    ? 'text-amber-500 bg-slate-900' 
+                  currentView === link.value
+                    ? 'text-amber-500 bg-slate-900'
                     : 'text-gray-300 hover:text-white hover:bg-slate-700'
                 }`}
               >
                 {link.label}
               </button>
             ))}
+            <button
+              onClick={() => { setView('JOBS'); setIsOpen(false); }}
+              className="block w-full mt-2 bg-amber-500 hover:bg-amber-600 text-slate-900 font-bold py-3 px-4 rounded-md text-center transition-colors"
+            >
+              Job finden
+            </button>
           </div>
         </div>
       )}

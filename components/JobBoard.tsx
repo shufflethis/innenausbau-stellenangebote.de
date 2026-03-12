@@ -46,57 +46,61 @@ export const JobBoard: React.FC = () => {
         <div className="space-y-6">
           {filteredJobs.length > 0 ? (
             filteredJobs.map((job) => (
-              <div key={job.id} className="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow p-6 relative overflow-hidden group">
+              <div key={job.id} className="bg-white rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow p-4 sm:p-6 relative overflow-hidden group">
                 <div className="absolute top-0 left-0 w-1 h-full bg-amber-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                <div className="flex flex-col md:flex-row justify-between md:items-start gap-4">
-                  <div className="flex-1">
-                    <span className="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full mb-3">
+                <div className="flex flex-col md:flex-row justify-between md:items-start gap-3 sm:gap-4">
+                  <div className="flex-1 min-w-0">
+                    <span className="inline-block px-3 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-full mb-2 sm:mb-3">
                         {job.category}
                     </span>
-                    <h3 className="text-xl font-bold text-slate-900 group-hover:text-amber-600 transition-colors">
+                    <h3 className="text-base sm:text-xl font-bold text-slate-900 group-hover:text-amber-600 transition-colors break-words">
                       {job.title}
                     </h3>
-                    <div className="mt-2 flex flex-wrap gap-4 text-sm text-gray-500">
+                    <div className="mt-2 flex flex-wrap gap-2 sm:gap-4 text-xs sm:text-sm text-gray-500">
                       <div className="flex items-center">
-                        <Building className="h-4 w-4 mr-1.5" />
-                        {job.company}
+                        <Building className="h-4 w-4 mr-1 sm:mr-1.5 flex-shrink-0" />
+                        <span className="truncate">{job.company}</span>
                       </div>
                       <div className="flex items-center">
-                        <MapPin className="h-4 w-4 mr-1.5" />
+                        <MapPin className="h-4 w-4 mr-1 sm:mr-1.5 flex-shrink-0" />
                         {job.location}
                       </div>
                       <div className="flex items-center">
-                        <Clock className="h-4 w-4 mr-1.5" />
+                        <Clock className="h-4 w-4 mr-1 sm:mr-1.5 flex-shrink-0" />
                         {job.type}
                       </div>
-                      <div className="flex items-center font-medium text-slate-700">
-                        <Euro className="h-4 w-4 mr-1.5" />
-                        {job.salary}
-                      </div>
+                      {job.salary && (
+                        <div className="flex items-center font-medium text-slate-700">
+                          <Euro className="h-4 w-4 mr-1 sm:mr-1.5 flex-shrink-0" />
+                          {job.salary}
+                        </div>
+                      )}
                     </div>
-                    
-                    <p className="mt-4 text-gray-600 line-clamp-2">
+
+                    <p className="mt-3 sm:mt-4 text-gray-600 line-clamp-2 text-sm sm:text-base">
                         {job.description}
                     </p>
 
-                    <div className="mt-4 flex flex-wrap gap-2">
-                        {job.requirements.slice(0, 3).map((req, i) => (
-                            <span key={i} className="inline-flex items-center text-xs bg-gray-50 text-gray-600 px-2 py-1 rounded border border-gray-200">
-                                <CheckCircle2 className="h-3 w-3 mr-1 text-green-500" />
-                                {req}
-                            </span>
-                        ))}
-                    </div>
+                    {job.requirements && job.requirements.length > 0 && (
+                      <div className="mt-3 sm:mt-4 flex flex-wrap gap-2">
+                          {job.requirements.slice(0, 3).map((req, i) => (
+                              <span key={i} className="inline-flex items-center text-xs bg-gray-50 text-gray-600 px-2 py-1 rounded border border-gray-200">
+                                  <CheckCircle2 className="h-3 w-3 mr-1 text-green-500 flex-shrink-0" />
+                                  {req}
+                              </span>
+                          ))}
+                      </div>
+                    )}
                   </div>
 
-                  <div className="mt-4 md:mt-0 flex flex-col gap-3 md:w-48 shrink-0">
-                    <button className="w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-2 px-4 rounded transition-colors">
+                  <div className="flex flex-row md:flex-col gap-2 sm:gap-3 md:w-48 shrink-0">
+                    <button className="flex-1 md:w-full bg-slate-900 hover:bg-slate-800 text-white font-semibold py-2 px-3 sm:px-4 rounded transition-colors text-sm sm:text-base">
                       Jetzt bewerben
                     </button>
-                    <button className="w-full border border-gray-300 hover:border-amber-500 hover:text-amber-600 text-gray-600 font-semibold py-2 px-4 rounded transition-colors">
-                      Details ansehen
+                    <button className="flex-1 md:w-full border border-gray-300 hover:border-amber-500 hover:text-amber-600 text-gray-600 font-semibold py-2 px-3 sm:px-4 rounded transition-colors text-sm sm:text-base">
+                      Details
                     </button>
-                    <span className="text-xs text-center text-gray-400">
+                    <span className="hidden md:block text-xs text-center text-gray-400">
                         Gepostet am {new Date(job.postedDate).toLocaleDateString('de-DE')}
                     </span>
                   </div>

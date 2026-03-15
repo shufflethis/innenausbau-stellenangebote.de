@@ -3,6 +3,116 @@ import { Job, JobCategory } from './types';
 export const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Zahnarzt (m/w/d)',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedDate: '2026-03-15'
+  },
+  {
+    id: '7',
+    title: 'Helfer Innenausbau  (m/w/d)⚡⚡⚡',
+    company: 'iperdi HL GmbH - Niederlassung Flensburg',
+    location: 'Flensburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Helfer Innenausbau  (m/w/d)⚡⚡⚡',
+    postedDate: '2026-03-12'
+  },
+  {
+    id: '8',
+    title: 'Elektrohelfer für den Innenausbau  (m/w/d)⚡⚡⚡',
+    company: 'iperdi HL GmbH - Niederlassung Flensburg',
+    location: 'Flensburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektrohelfer für den Innenausbau  (m/w/d)⚡⚡⚡',
+    postedDate: '2026-03-12'
+  },
+  {
+    id: '9',
+    title: 'Elektrohelfer Innenausbau  (m/w/d)⚡⚡⚡',
+    company: 'iperdi HL GmbH - Niederlassung Flensburg',
+    location: 'Flensburg',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Elektrohelfer Innenausbau  (m/w/d)⚡⚡⚡',
+    postedDate: '2026-03-11'
+  },
+  {
+    id: '10',
+    title: 'Trockenbauer (m/w/d) im Innenausbau',
+    company: 'alunek&gebrueder luma e GbR Luma',
+    location: 'Schweinfurt',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Trockenbauer (m/w/d) im Innenausbau',
+    postedDate: '2026-03-09'
+  },
+  {
+    id: '11',
+    title: 'Holzmechaniker - Möbelbau und Innenausbau (m/w/d)',
+    company: 'Tempton Personaldienstleistungen GmbH NL Mülheim',
+    location: 'Mülheim an der Ruhr',
+    type: 'Vollzeit',
+    category: JobCategory.OTHER,
+    description: 'Holzmechaniker - Möbelbau und Innenausbau (m/w/d)',
+    postedDate: '2026-03-09'
+  },
+  {
+    id: '12',
     title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
     company: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
     location: 'Salzgitter',
@@ -12,7 +122,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '2',
+    id: '13',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Weißenburg i. Bayern',
@@ -22,7 +132,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '3',
+    id: '14',
     title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
     company: 'HUK-COBURG Versicherungsgruppe',
     location: 'Nürnberg',
@@ -32,7 +142,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '4',
+    id: '15',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'Nürnberg',
@@ -42,7 +152,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '5',
+    id: '16',
     title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
     company: 'Sikla GmbH',
     location: 'München',
@@ -52,7 +162,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '6',
+    id: '17',
     title: 'Facility Manager (m/w/d) im Bereich People, Culture & Places',
     company: 'Star Finanz GmbH',
     location: 'Hamburg',
@@ -62,7 +172,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-08'
   },
   {
-    id: '7',
+    id: '18',
     title: 'Trockenbaumonteur/in (m/w/d) für den Innenausbau',
     company: 'Fred Pitschke Maler & Trockenbau',
     location: 'Löhne',
@@ -72,7 +182,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-07'
   },
   {
-    id: '8',
+    id: '19',
     title: 'Bauhelfer - Innenausbau (m/w/d)',
     company: 'Centerra Integrated Services GmbH',
     location: 'Viernheim',
@@ -82,7 +192,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-06'
   },
   {
-    id: '9',
+    id: '20',
     title: 'Mitarbeiter Innenausbau im Sonderfahrzeugbau (m/w/d)',
     company: 'teamkompetent GmbH Personaldienstleistungen',
     location: 'Nobitz',
@@ -92,7 +202,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-06'
   },
   {
-    id: '10',
+    id: '21',
     title: 'Helfer (m/w/d) Innenausbau',
     company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -102,7 +212,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-06'
   },
   {
-    id: '11',
+    id: '22',
     title: 'Tischler im Innenausbau (m/w/d)',
     company: 'MANPOWER GmbH & Co. KG',
     location: 'Wurzen',
@@ -112,7 +222,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-06'
   },
   {
-    id: '12',
+    id: '23',
     title: 'Projektmanager Innenausbau (m/w/d)',
     company: 'Hays AG',
     location: 'Dresden',
@@ -122,7 +232,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-05'
   },
   {
-    id: '13',
+    id: '24',
     title: 'Holzmechaniker/in - Möbelbau und Innenausbau',
     company: 'ISG Personalmanagement GmbH',
     location: 'Bad Vöslau',
@@ -132,7 +242,7 @@ export const MOCK_JOBS: Job[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '14',
+    id: '25',
     title: 'Niederlassungsleiter im Innenausbau (m/w/d)',
     company: 'Heinrich Schmid GmbH & Co. KG',
     location: 'Biberach an der Riß',
@@ -140,116 +250,6 @@ export const MOCK_JOBS: Job[] = [
     category: JobCategory.OTHER,
     description: 'Niederlassungsleiter im Innenausbau (m/w/d)',
     postedDate: '2026-03-03'
-  },
-  {
-    id: '15',
-    title: 'Trockenbauer (m/w/d)',
-    company: 'Wackler Personal-Service GmbH - NL Leipzig',
-    location: 'Zwenkau',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Trockenbauer (m/w/d)',
-    postedDate: '2026-03-03'
-  },
-  {
-    id: '16',
-    title: 'Tischler (m/w/d) im Innenausbau',
-    company: 'TimePartner Personalmanagement GmbH',
-    location: 'Haren (Ems)',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Tischler (m/w/d) im Innenausbau',
-    postedDate: '2026-02-27'
-  },
-  {
-    id: '17',
-    title: 'Ausbaufacharbeiter im Innenausbau (m/w/d)',
-    company: 'Käferstein Innenausbau GmbH',
-    location: 'Nürnberg, Mittelfranken',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Ausbaufacharbeiter im Innenausbau (m/w/d)',
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '18',
-    title: 'Schlosser Innenausbau (m/w/d)',
-    company: 'TimePartner Personalmanagement GmbH',
-    location: 'Salzgitter',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Schlosser Innenausbau (m/w/d)',
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '19',
-    title: 'Mitarbeiter Innenausbau (w/m/d)',
-    company: 'Sabine Jonuscheit & Frank Jonuscheit GbR',
-    location: 'Mühlhausen/Thüringen',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter Innenausbau (w/m/d)',
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '20',
-    title: 'Innenausbau Facharbeiter (m/w/d)',
-    company: 'Merseburger Baugesellschaft mbH',
-    location: 'Merseburg',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Innenausbau Facharbeiter (m/w/d)',
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '21',
-    title: 'Mitarbeiter im Innenausbau (gn)',
-    company: 'Manpower GmbH & Co. KG',
-    location: 'Malchin',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter im Innenausbau (gn)',
-    postedDate: '2026-02-25'
-  },
-  {
-    id: '22',
-    title: 'Tischler für den Innenausbau (m/w/d)',
-    company: 'Neo Temp GmbH',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Tischler für den Innenausbau (m/w/d)',
-    postedDate: '2026-02-23'
-  },
-  {
-    id: '23',
-    title: 'Mitarbeiter im Innenausbau (m/w/d) gesucht!!!',
-    company: 'Manuela Flenker Primus Jobinstitut',
-    location: 'Dresden',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Mitarbeiter im Innenausbau (m/w/d) gesucht!!!',
-    postedDate: '2026-02-23'
-  },
-  {
-    id: '24',
-    title: 'Bauleiter/in  - Innenausbau (Bauleiter/in)(m/w/d)',
-    company: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Bauleiter/in  - Innenausbau (Bauleiter/in)(m/w/d)',
-    postedDate: '2026-02-23'
-  },
-  {
-    id: '25',
-    title: 'Schreiner Innenausbau (m/w/d)',
-    company: 'persona service AG & Co. KG',
-    location: 'Wallersdorf, Niederbayern',
-    type: 'Vollzeit',
-    category: JobCategory.OTHER,
-    description: 'Schreiner Innenausbau (m/w/d)',
-    postedDate: '2026-02-16'
   }
 ];
 
